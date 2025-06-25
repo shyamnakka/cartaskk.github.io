@@ -1,0 +1,391 @@
+body{
+    margin: 0px;
+    overflow-y: hidden;
+}
+.overall{
+    height:100vh;
+    width: 200%;
+    background-color: hwb(207 70% 5%);
+    z-index: 1;
+    animation-name: night;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+}
+.road{
+    height:30%;
+    width:200%;
+   
+    z-index: 1;
+     background-color: rgb(175, 175, 175);
+     bottom:0px;
+     position: absolute;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   
+     
+    
+}
+.block{
+    height:20px;
+    width:200px;
+    background-color: white;
+}
+.car{
+   
+    height:250px;
+    width:400px;
+    position:absolute;
+    bottom:120px;
+    left:50px;
+    z-index: 3;
+    position: fixed;
+    animation-name: car;
+    animation-duration: 30s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+ @keyframes car{
+    0%{
+    position: absolute;
+    bottom:120px;
+    left:50px;
+
+    }
+    100%{
+    bottom:120px;
+    left:180%;
+     position: absolute;
+
+    }
+    
+ }
+.part-1{
+    height:70px;
+    width:350px;
+    position: absolute;
+    border:2px solid black;
+    bottom:40px;
+    left:20px;
+    z-index: 4;
+    background-color: red;
+    border-radius: 30px 70px 0px 0px;
+ 
+}
+.part-2{
+    height:60px;
+    width:180px;
+    position: absolute;
+    border:2px red solid;
+    bottom:110px;
+    left:40px;
+    z-index: 4;
+    background-color: black;
+    border-radius: 30px 70px 0px 0px;
+
+
+}
+.tyre-1{
+   height:90px;
+   width:90px;
+   position: absolute; 
+   border:2px solid white;
+   bottom:6px;
+   left: 30px;
+   background-color: black;
+   z-index: 5;
+   border-radius: 50px 50px 50px 50px;
+
+}
+.tyre-2{
+    height:70px;
+    width:70px;
+    position:absolute;
+    border:2px solid white;
+    background-color: black;
+    bottom: 6px;
+    left:280px;
+    z-index: 5;
+    border-radius: 50px 50px 50px 50px;
+}
+.tree-1{
+    height:400px;
+    width:250px;
+    position: absolute;
+    top:150px;
+    left:600px;
+    z-index: 1;
+}
+.root-1{
+    height: 70px;
+    width:70px;
+    position: absolute;
+    
+    top:80px;
+    left:130px;
+    background-color: #42cb42;
+    border-radius: 50px 50px 50px 50px;
+    z-index: 2;
+
+}
+.root-2{
+    height: 70px;
+    width:70px;
+    position: absolute;
+    
+    top:35px;
+    left:100px;
+    background-color: #42cb42;
+    border-radius: 50px 50px 50px 50px;
+    z-index: 3;
+
+}
+.root-3{
+    height: 70px;
+    width:70px;
+    position: absolute;
+    top:80px;
+    left:70px;
+    background-color: #42cb42;
+    border-radius: 50px 50px 50px 50px;
+    z-index: 2;
+
+}
+.karra{
+    height: 250px;
+    width: 35px;
+    background-color: brown;
+    position: absolute;
+    top:100px;
+    left:115px;
+}
+.tree-2{
+    height:400px;
+    width:250px;
+    position: absolute;
+    top:150px;
+    left:150%;
+    z-index: 1;
+}
+.leave-1{
+    height: 70px;
+    width:70px;
+    position: absolute;
+    
+    top:80px;
+    left:250px;
+    background-color: #42cb42;
+    border-radius: 50px 50px 50px 50px;
+    z-index: 2;
+
+}
+.leave-2{
+    height: 70px;
+    width:70px;
+    position: absolute;
+    
+    top:35px;
+    left:270px;
+    background-color: #42cb42;
+    border-radius: 50px 50px 50px 50px;
+    z-index: 3;
+
+}
+.leave-3{
+    height: 70px;
+    width:70px;
+    position: absolute;
+    top:80px;
+    left:300px;
+    background-color: #42cb42;
+    border-radius: 50px 50px 50px 50px;
+    z-index: 2;
+
+}
+.branch{
+    height: 250px;
+    width: 35px;
+    background-color: brown;
+    position: absolute;
+    top:100px;
+    left:290px;
+}
+
+.cloud{
+    height:150px;
+    width:300px;
+    position: absolute;
+    top:20px;
+    left:5px;
+
+    animation-name:cloud ;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+.cld-1{
+    height:80px;
+    width:150px;
+    background-color: skyblue;
+    position: absolute;
+    top:10px;
+    left:60px;
+    border-radius:70%  ;
+     animation-name: night;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-delay: 6s;
+}
+.cld-2{
+    height:80px;
+    width:150px;
+    background-color: skyblue;
+    position: absolute;
+    top:45px;
+    left:8px;
+    border-radius:70%  ;
+     animation-name: night;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-delay: 6s;
+}
+.cld-3{
+    height:80px;
+    width:150px;
+    background-color:skyblue;
+    position: absolute;
+    top:50px;
+    left:110px;
+    border-radius:70%  ;
+     animation-name: night;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-delay: 6s;
+
+
+}
+
+@keyframes cloud{
+    0%{
+        position: absolute;
+        top:20px;
+        left:5px;
+    }
+    100%{
+        position: absolute;
+        top:20px;
+        left:100%;
+    }
+    
+}
+
+
+.rain{
+    height: 10px;
+    width: 200px;
+
+    position: absolute;
+    bottom: 10px;
+    left:40px;
+    display: flex;
+    justify-content:space-between;
+
+    animation-name: rain;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+}
+
+.drops{
+    height: 7px;
+    width: 4px;
+    background-color:white;
+    border-radius:50%;
+
+     animation-name: night;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-delay: 6s;
+}
+
+@keyframes rain {
+    0%{
+    position: absolute;
+    bottom: 10px;
+    left:40px;
+    }
+
+    100%{
+    position: absolute;
+    bottom:-30px;
+    left:40px;
+
+    }
+    
+}
+.sun{
+    height:130px;
+    width:130px;
+    position: absolute;
+    top:50px;
+    right:100px;
+    z-index: 1;
+    border-radius: 50%;
+    animation-name: sun;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 1px rgb(192, 188, 188);
+}
+
+@keyframes sun {
+    0%{
+        background-color: orange;
+    }
+    100%{
+        box-shadow: 0px 0px 60px 20px orangered;
+        background-color: orange;
+    }
+    
+}
+
+@keyframes night {
+    0%{
+
+    }
+    100%{
+
+            background-color:rgb(52, 51, 51);
+    }    
+}
+.stars{
+    z-index: 100;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation-name: stars;
+    animation-duration: 10s;
+}
+
+@keyframes stars {
+    0%{
+        position: relative;
+        top: -10000px;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+}
